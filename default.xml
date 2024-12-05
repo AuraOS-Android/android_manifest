@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="aura"
+           fetch="https://github.com/AuraOS-Android"
+           revision="vic" />
+
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
@@ -1337,4 +1341,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/auraos.xml" />
 </manifest>
